@@ -4,6 +4,8 @@ import Hero from '../components/hero';
 import Feature from '../components/feature';
 import Device from '../components/device';
 import Share from '../components/share';
+import Collaborate from '../components/collaborate';
+import Ontrack from '../components/ontrack';
 
 const IndexPage = () => (
   <div className="">
@@ -11,6 +13,8 @@ const IndexPage = () => (
     <Feature />
     <Device />
     <Share />
+    <Collaborate />
+    <Ontrack />
   </div>
 );
 

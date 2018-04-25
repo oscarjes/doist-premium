@@ -6,7 +6,7 @@ import feature3 from "../images/feature3.svg";
 const Feature = () => (
   <div className="bg-grey-lightest pt-8 pb-8 text-center w-full">
     <h2 className="text-4xl text-grey-darker mt-8 ">Your team’s tasks, files, and discussions</h2>
-    <p className="text-grey text-xl font-thin mt-8 mb-8">All neatly organized in one place.</p>
+    <p className="text-grey-darker text-xl font-thin mt-8 mb-8">All neatly organized in one place.</p>
     <div className="flex  justify-center flex-wrap flex-row min-w-50 min-w-50">
       <div className="text-grey-darker text-center px-4 py-2 m-2 mr-8">
         <img src={feature1} />

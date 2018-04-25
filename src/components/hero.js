@@ -2,16 +2,17 @@ import React from "react";
 import heroImg from "../images/hero-background.jpg";
 
 var sectionStyle = {
-  width: "1265px",
-  height: "494px",
   backgroundSize: "cover",
+  paddingTop: "100px",
+  paddingBottom: "144px",
+  backgroundPosition: "bottom right",
   backgroundImage: `url(${heroImg})`
 };
 
 const Hero = () => (
   <div className="test">
     <div className="" style={sectionStyle}>
-      <div className="" style={{paddingTop: "10%", paddingLeft: "10%"}}>
+      <div className="" style={{paddingTop: "5%", paddingLeft: "10%"}}>
         <div className=" text-sm mb-4 text-left tracking-wide text-white font-thin">
           TEAM TASK MANAGEMENT & COLLABORATION
         </div>
