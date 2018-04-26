@@ -1,27 +1,26 @@
 import React from "react";
-import heroImg from "../images/hero-background.jpg";
+import heroImg from "../images/premium-hero.png";
 
 var sectionStyle = {
   backgroundSize: "cover",
-  paddingTop: "100px",
-  paddingBottom: "144px",
-  backgroundPosition: "bottom right",
+  paddingTop: "200px",
+  paddingBottom: "320px",
+  backgroundPosition: "center",
   backgroundImage: `url(${heroImg})`
 };
 
 const Hero = () => (
   <div className="test">
     <div className="" style={sectionStyle}>
-      <div className="" style={{paddingTop: "5%", paddingLeft: "10%"}}>
-        <div className=" text-sm mb-4 text-left tracking-wide text-white font-thin">
-          TEAM TASK MANAGEMENT & COLLABORATION
+      <div className="flex flex-col justify-center">
+        <div className="text-center text-5xl mb-4 tracking-wide text-white font-semibold">
+        Take on your biggest projects and goals
         </div>
-        <div className="text-4xl mb-8 text-left tracking-wide text-white font-semibold">
-        The easiest way to make <br />
-        sure everything gets done.
+        <div className="text-center text-2xl mb-8 tracking-wide text-grey-light font-semithin">
+        with Todoist’s smartest features
         </div>
-        <button className="bg-red float-left hover:bg-red-dark text-sm text-white font-semibold py-4 px-8 rounded">
-          TRY FREE FOR 30 DAYS
+        <button className="flex-none bg-red hover:bg-red-dark text-sm text-white font-semibold pr-8 pl-8 py-6 mx-auto rounded">
+          GET PREMIUM
         </button>
       </div>
     </div>

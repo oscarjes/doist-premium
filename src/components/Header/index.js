@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
-import Logo from "../../images/logo.svg";
+import Logo from "../../images/premium-logo.svg";
 
 const Header = () => {
   const handleClick = function(e) {
@@ -12,7 +12,7 @@ const Header = () => {
   };
 
   return (
-    <nav className="bg-white">
+    <nav className="bg-transparent">
       <div className="flex font-light flex-wrap items-center justify-between max-w-xl mx-auto p-4 md:p-4">
         <Link to="/" className="flex items-center no-underline text-grey">
          <img src={Logo} className="" />

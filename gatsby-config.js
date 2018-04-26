@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter Tailwind',
+    title: 'Todoist Premium',
   },
   plugins: ['gatsby-plugin-react-helmet'],
 };
