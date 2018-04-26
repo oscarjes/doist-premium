@@ -1,4 +1,4 @@
-My quick recreation of https://todoist.com/business using Gastby.js and Tailwind CSS.
+My quick recreation of https://todoist.com/premium using Gastby.js and Tailwind CSS.
 
 ## Resources
 * [Gatsby documentation](https://www.gatsbyjs.org/docs/)
